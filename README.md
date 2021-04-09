@@ -81,7 +81,7 @@ Reducing memory fragmentation:
 - Advanced programmers: allocate a large memory buffer early in the life of your code and reuse the same memory buffer through your program.
 
 ### Other memory conserving tips:
-- Be sure all your libraries are pre-compiled as .mpy files. if you pull libraries from thr CircuitPython bundle, they are already pre-compiled to .mpy files. [Go here to learn to compile python code to .mpy files.](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions#how-can-i-create-my-own-mpy-files-3020687-11)
+- Be sure all your libraries are pre-compiled as .mpy files. if you pull libraries from the CircuitPython bundle, they are already pre-compiled to .mpy files. [Go here to learn to compile python code to .mpy files.](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions#how-can-i-create-my-own-mpy-files-3020687-11)
 - Rather than keeping a big list use list generators, e.g. range() 
 
 ### Other memory-related issues:
